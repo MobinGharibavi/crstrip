@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@formkit/tempo": "^0.0.19",
+    "@morev/vue-transitions": "^3.0.2",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/nuxt": "^10.9.0",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue3-carousel-nuxt": "^1.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.3.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@samk-dev/nuxt-vcalendar": "^1.0.3",
+    "nuxt-icon": "^0.6.10"
+  }
+}

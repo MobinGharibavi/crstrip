@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-outline {
+    @apply text-blue-500 border border-blue-500 rounded-lg bg-white p-2;
+  }
+  .btn-primary {
+    @apply bg-blue-500 rounded-lg text-white p-2;
+  }
+}
+
+@font-face {
+  font-family: "KM";
+  src: url("../fonts/KM/woff/KalamehWeb-Regular.woff") format("woff");
+  src: url("../fonts/KM/woff2/KalamehWeb-Regular.woff2") format("woff2");
+  src: url("../fonts/KM/eot/KalamehWeb-Regular.eot") format("eot");
+}
+@font-face {
+  font-family: "KM-bold";
+  src: url("../fonts/KM/woff/KalamehWeb-Bold.woff") format("woff");
+  src: url("../fonts/KM/woff2/KalamehWeb-Bold.woff2") format("woff2");
+  src: url("../fonts/KM/eot/KalamehWeb-Bold.eot") format("eot");
+}
+@font-face {
+  font-family: "KM-black";
+  src: url("../fonts/KM/woff/KalamehWeb-Black.woff") format("woff");
+  src: url("../fonts/KM/woff2/KalamehWeb-Black.woff2") format("woff2");
+  src: url("../fonts/KM/eot/KalamehWeb-Black.eot") format("eot");
+}
+@font-face {
+  font-family: "KM-thin";
+  src: url("../fonts/KM/woff/KalamehWeb-Thin.woff") format("woff");
+  src: url("../fonts/KM/woff2/KalamehWeb-Thin.woff2") format("woff2");
+  src: url("../fonts/KM/eot/KalamehWeb-Thin.eot") format("eot");
+}
+
+body,
+* {
+  font-family: "KM", "KM-bold", "KM-black", "KM-thin";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* check box in filter page */
+.checkbox-wrapper-34 {
+  --blue: #0d7eff;
+  --g08: #e1e5eb;
+  --g04: #848ea1;
+}
+
+.checkbox-wrapper-34 .tgl {
+  display: none;
+}
+.checkbox-wrapper-34 .tgl,
+.checkbox-wrapper-34 .tgl:after,
+.checkbox-wrapper-34 .tgl:before,
+.checkbox-wrapper-34 .tgl *,
+.checkbox-wrapper-34 .tgl *:after,
+.checkbox-wrapper-34 .tgl *:before,
+.checkbox-wrapper-34 .tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+.checkbox-wrapper-34 .tgl::selection,
+.checkbox-wrapper-34 .tgl:after::selection,
+.checkbox-wrapper-34 .tgl:before::selection,
+.checkbox-wrapper-34 .tgl *::selection,
+.checkbox-wrapper-34 .tgl *:after::selection,
+.checkbox-wrapper-34 .tgl *:before::selection,
+.checkbox-wrapper-34 .tgl + .tgl-btn::selection {
+  background: none;
+}
+.checkbox-wrapper-34 .tgl + .tgl-btn {
+  outline: 0;
+  display: block;
+  width: 57px;
+  height: 27px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}
+.checkbox-wrapper-34 .tgl + .tgl-btn:after,
+.checkbox-wrapper-34 .tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 44%;
+  height: 100%;
+}
+.checkbox-wrapper-34 .tgl + .tgl-btn:after {
+  @apply left-0 rtl:right-0;
+}
+.checkbox-wrapper-34 .tgl + .tgl-btn:before {
+  display: inline;
+  position: absolute;
+  top: 7px;
+}
+.checkbox-wrapper-34 .tgl:checked + .tgl-btn:after {
+  @apply left-[56.5%] rtl:right-[56.5%];
+}
+
+.checkbox-wrapper-34 .tgl-ios + .tgl-btn {
+  background: var(--g08);
+  border-radius: 20rem;
+  padding: 2px;
+  transition: all 0.4s ease;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+.checkbox-wrapper-34 .tgl-ios + .tgl-btn:after {
+  border-radius: 2em;
+  background: #fff;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    padding 0.3s ease, margin 0.3s ease;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.checkbox-wrapper-34 .tgl-ios + .tgl-btn:before {
+  content: "";
+  right: 28px;
+  color: var(--g04);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.checkbox-wrapper-34 .tgl-ios + .tgl-btn:active {
+  box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.checkbox-wrapper-34 .tgl-ios + .tgl-btn:active:after {
+  padding-right: 0.4em;
+}
+.checkbox-wrapper-34 .tgl-ios:checked + .tgl-btn {
+  background: var(--blue);
+}
+.checkbox-wrapper-34 .tgl-ios:checked + .tgl-btn:active {
+  box-shadow: inset 0 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.checkbox-wrapper-34 .tgl-ios:checked + .tgl-btn:active:after {
+  margin-right: -0.4em;
+}
+.checkbox-wrapper-34 .tgl-ios:checked + .tgl-btn:before {
+  content: "\2713";
+  right: 0.85rem;
+  top: 0.25rem;
+  color: #fff;
+}
+
+.hideScroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-orange {
+  color: #ff5a00;
+}
+.bg-orange {
+  background-color: #ff5a00;
+}
+.border-orange {
+  background-color: #ff5a00;
+}

@@ -1,0 +1,62 @@
+.noUi-connect{
+    background: #0078f3!important;
+}
+.noUi-tooltip {
+    position: relative;
+    background-color: #0078f3!important;
+    color: #fff;
+    bottom: 50px!important;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.noUi-tooltip:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.noUi-tooltip:after {
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color: #0078f3;
+    border-width: 8px;
+    margin-left: -8px;
+
+}
+
+.noUi-handle{
+    background: #0078f3 !important;
+    border: 2px solid #0078f3;
+}
+.noUi-touch-area{
+    background: #0078f3 !important;
+}
+
+
+.handle-circle-upper {
+    position: absolute;
+    top: 2px;
+    transform: translateY(-50%);
+    color: #dedde2;
+    left: -9px;
+}
+
+.handle-circle-lower {
+    position: absolute;
+    top: -14px;
+    transform: translateY(+50%);
+    color: #dedde2;
+    right: -9px;
+}
+.noUi-connects{
+    background-color: #dedde2;
+}
+
+

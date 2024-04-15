@@ -1,0 +1,217 @@
+{
+  "btn": {
+    "register": "Register",
+    "login": "Login"
+  },
+  "navBar": {
+    "home": "Home",
+    "about": "About us",
+    "contact": "Connect us"
+  },
+
+  "main": {
+    "header": {
+      "welcome": "Welcome to",
+      "welCRS": "CRS Trip",
+      "whereThe": "Where The",
+      "Journey": "Journey",
+      "Begins_and": "Begins and",
+      "Memories": "Memories",
+      "made": "are made",
+      "description": "CRSTRIP is an integrated system of tourism services. This system provides you with many qualities such as easy Ticket sales, accurate control of account and sales, Control of financial affairs, etc."
+    },
+    "advantage": {
+      "why": "Why you should chose",
+      "us": "us",
+      "advantage": "Advantages",
+      "CRSTRIP": "CRSTRIP",
+      "description": "In this section, you can see some of the unique features of crstrip. We always try to provide the best services to our customers.",
+
+      "options": {
+        "op1": {
+          "title": "24 Hour Support",
+          "body": "We have 24 hour online and offline and etc support."
+        },
+        "op2": {
+          "title": "Lower Price",
+          "body": "We try to provide you with the best service at the lowest price."
+        },
+        "op3": {
+          "title": "Latest technology",
+          "body": "We provide the best for you and in this way we use the latest technologies."
+        },
+        "op4": {
+          "title": "User Friendly",
+          "body": "You can get your service with just a few clicks."
+        }
+      }
+    },
+    "mobile": {
+      "on": "On Mobile",
+      "CRSTRIP": "CRSTRIP",
+      "with": "With the",
+      "version": "Mobile Version",
+      "we_can": "We Can Book Your Tourist Services",
+      "easy": "Very Easily",
+      "reserve": "",
+      "description": "With the CRSTRIP mobile version, you can use our services at any time and anywhere. The mobile phone version of CRSTRIP is specially designed and optimized for mobile phones. Our focus is your convenience on all platforms."
+    },
+    "partners": {
+      "our": "Our",
+      "partners": "Partners",
+      "description": "In the way of providing CRSTRIP services, it cooperates with the best companies in the world to provide an excellent experience for its customers."
+    },
+
+    "feature": {
+      "and": "And many other",
+      "feature": "features",
+      "try": "that you should try",
+      "description": "We have put many features for your convenience in CRSTRIP that you can experience on the website or app."
+    },
+    "auth": {
+      "welcome": "Welcome to",
+      "CRS": "CRS Trip",
+      "navBar": "Login/Register",
+      "register": {
+        "title": "Register",
+        "agent": "Agent ID",
+        "username": "Username",
+        "password": "Password",
+        "confirm_password": "Confirm Password",
+        "bottom": "Already have an account? "
+      },
+      "login": {
+        "title": "Login",
+        "agent": "Agent ID",
+        "username": "Username",
+        "password": "Password",
+        "bottom": "Do not have an account?"
+      }
+    }
+  },
+
+  "search": {
+    "navBar": {
+      "search_flight": "جستجو پرواز",
+      "support": "پشتیبانی",
+      "contact": "تماس باما",
+      "about": "درباره ما",
+      "profile": {
+        "account": "حساب کاربری",
+        "tickets": "بلیط ها",
+        "transactions": "تراکنس ها",
+        "deposite": "افزایش اعتبار"
+      },
+      "notification": {
+        "showMore": "مشاهده بیشتر",
+        "title": "متن عنوان نوتیفیکیشن",
+        "body": "متن توضیحات نوتیفیکیشن در این قسمت قرار میگیرد و این متن صرفا برای تست است."
+      }
+    },
+
+    "main": {
+      "news_letter": {
+        "title": "عضویت در خبرنامه",
+        "description": "از طریق عضویت در خبرنامه میتوانید از تخفیف ها و فروش های ویژه و اخبار سایت مطلع شوید.",
+        "email_title": "ایمیل یا شماره موبایل خود را وارد کنید",
+        "button": "عضویت در خبرنامه"
+      },
+      "FAQ": {
+        "title": "سولات پر تکرار",
+        "support": "پشتیبانی",
+        "call": "تماس بگیرید",
+        "description": "در این بخش سوالاتی که معمولا در مورد وبسایت ایجاد میشود قرار داده شده. در صورت وجود سوالی که در موارد زیر وجود ندارد میتوانید با.",
+        "btn1": "تماس با پشتیبانی",
+        "btn2": "مشاهده سوالات بیشتر",
+        "options": {
+          "op1": "چطور میتوانم یک تیکت پشتیبانی ثبت کنم؟",
+          "op2": "چطور یک بلیط هواپیما رزروکنم؟",
+          "op3": "چطور میتوانم تیکت های خود را پیگیری کنم؟",
+          "op4": "چطور میتوانم برای ویزای توریستی درخواست بدهم؟",
+          "op5": "چطور در سایت اطلاعات آژانس خود را ویرایش کنم؟",
+          "op6": "مبلغ و قوانین استرداد بلیط چقدر است؟"
+        }
+      },
+      "visa": {
+        "title": "ویزا",
+        "titleMobile": "ویزا های توریستی",
+        "op1": {
+          "title": "ویزا دوبی",
+          "body": "ویزا گردشگری دوبی"
+        },
+        "op2": {
+          "title": "ویزا عمان",
+          "body": "ویزا گردشگری عمان"
+        },
+        "op3": {
+          "title": "ویزا اردن",
+          "body": "ویزا گردشگری اردن"
+        },
+        "op4": {
+          "title": "ویزا ارمنستان",
+          "body": "ویزا گردشگری ارمنستان"
+        },
+        "op5": {
+          "title": "ویزا آذربایجان",
+          "body": "ویزا گردشگری آذربایجان"
+        },
+        "op6": {
+          "title": "ویزا قطر",
+          "body": "ویزا گردشگری قطر"
+        },
+        "op7": {
+          "title": "ویزا کانادا",
+          "body": "ویزا گردشگری کانادا"
+        },
+        "op8": {
+          "title": "ویزا روسیه",
+          "body": "ویزا گردشگری روسیه"
+        },
+        "btn": "درخواست ویزا"
+      },
+      "search_flight": {
+        "title": "جستجو پرواز",
+        "options": {
+          "op1": "یک طرفه",
+          "op2": "رفت و برگشت"
+        },
+        "origin": "مبدا",
+        "destination": "مقصد",
+        "departure_date": "تاریخ رفت",
+        "persons": "مسافران",
+        "btn": "جستجو پرواز"
+      },
+      "banner": {
+        "title": "ویزا توریستی ترکیه",
+        "body": "برای مشاهده جزئیات کلیک کنید"
+      }
+    },
+
+    "footer": {
+      "title": {
+        "call_info": "اطلاعات تماس",
+        "roadmap": "راهنمای سایت",
+        "site_info": "اطلاعات سایت"
+      },
+      "call_info": {
+        "charge": "راهنمای شارژ حساب",
+        "call": "راهنمای تماس با پشتیبانی",
+        "ticket": "راهنمای استرداد بلیط"
+      },
+      "site_info": {
+        "op1": "متن منو شماره یک",
+        "op2": "متن منو شماره دو",
+        "op3": "متن منو شماره سه"
+      },
+
+      "copyright": "All rights to these services (website and mobile application) are reserved and owned by CRSTRIP"
+    }
+  },
+
+  "footer": {
+    "title": "CRS Trip",
+    "subTitle": "If You Want To Go Far, Go Together",
+
+    "copyright": "All rights to these services (website and mobile application) are reserved and owned by CRSTRIP"
+  }
+}
